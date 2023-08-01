@@ -1,0 +1,10 @@
+2 3  numberz to add
+
+0,[
+	0!0=  while b>zero
+	s  increment a
+	decrement b:
+	0  rezult
+	1  number to compare with b
+	1,[1!0!=s1!s1,]0,
+]
