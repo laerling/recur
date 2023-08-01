@@ -42,6 +42,10 @@ while ip<len(prgm):
     # read char
     c=prgm[ip]
 
+    # breakpoint
+    if c=='@':
+        debug=True
+
     # 123: Push the natural number (includes 0) onto the stack. (There is an infinite number of natural numbers.)
     if c>='0' and c<='9':
         # build a number
