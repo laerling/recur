@@ -1,0 +1,40 @@
+13 5  numberz to divide
+
+1,0,
+0  rezult
+
+[1!0=0!0=  while b>zero and a>zero
+
+	decrement a by b:
+	1!2,  copy of b
+	[ 0!0= 2!0=  while a>zero and copy of b>zero
+		decrement a and copy of b by one:
+		0 1 3,[3!0!=s3!s3,]0,
+		0 1 3,[3!2!=s3!s3,]2,
+	]
+
+	b haz been zubtracted from a
+	a may be zero
+	increment rezult if a>zero or b iz zero
+	a>zero meanz we zubtracted all of b but have to keep on
+	b zero meanz we zubtracted all of b and are done
+	1 3,  flag do increment rezult
+	0[0!0=s0 0=]  flag a>zero (on ztack)
+	[1=1!0=0 3,0 0=]  unlezz a>zero or b iz zero don't increment rezult
+	[3!0=s0 0=]  increment rezult if flag
+]
+
+rezult iz on ztack
+
+copy of b containz difference between b and remainder
+calculate remainder (b minuz copy of b)
+[2!0=  while difference between b and remainder>zero
+        decrement b:
+        0 1 3,[1!3!=s3!s3,]1,
+        decrement difference between b and remainder:
+        0 1 3,[2!3!=s3!s3,]2,
+]
+b iz remainder
+1!  puzh remainder
+
+rezult and remainder are on ztack
