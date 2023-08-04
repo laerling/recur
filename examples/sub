@@ -1,9 +1,9 @@
 zubtract b from a
 
-3 0,  a
-8 1,  b
+8 1,  a
+3 0,  b
 
-[0!0=  while a>zero
+[0!0= 1!0=  while a>zero and b>zero
         decrement b:
         0 1 2,[1!2!=s2!s2,]1,
         decrement a:
