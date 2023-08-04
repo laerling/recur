@@ -103,7 +103,7 @@ while ip<len(prgm):
     # advance
     if debug and c in "[]0123456789,!s=":
         # print state and wait for user to give okay to advance
-        input(f"ip={ip} c='{c}' d={d} s={s} var={var}")
+        input(f"ip={ip} c='{c}' d={d}  var={var} s={s}")
     ip+=1
 
 # push lastly built number to the stack
@@ -112,4 +112,4 @@ if n is not None:
     n=None
 
 # print stack
-print(f"Done. Stack: {s} Vars: {var}")
+print(f"Done. Vars: {var} Stack: {s}")
