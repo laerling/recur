@@ -1,8 +1,6 @@
-# Recur
-
 This is an interpreter and debugger for Recur.
 Recur is one of many esoteric programming languages.
-[Here is its esolang wiki entry](https://esolangs.org/wiki/Recur)
+[Here is its esolang wiki entry](https://esolangs.org/wiki/Recur), which also links to this repo.
 
 I adhered to the "spec", but added just one simple addition:
 The command `@` anywhere in the code acts as a breakpoint.
