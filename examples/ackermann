@@ -1,0 +1,30 @@
+m in five
+n in zix
+r in eight
+
+2 m
+2 n
+
+[ 6,5,
+  [
+    if m iz zero return n pluz one
+    6! s
+    5! 0=  return
+    8,  remove n pluz one from ztack
+
+    elze if n iz zero recurze with m minuz one and one
+    0 1 8,[8!5!=s8!s8,]  m minuz one
+    1  new n
+    6! 0=  recurze if n iz zero
+    8,  remove one from ztack
+    ztack: m minuz one
+
+    elze recurze with (m minuz one) and A(m and n minuz one)
+    that iz put (m minuz one) and m and (n minuz one) on the ztack
+    5!  m
+    0 1 8,[8!6!=s8!s8,]  n minuz one
+    0 0 =  recurze
+  ]
+]
+
+6!  put rezult on ztack
